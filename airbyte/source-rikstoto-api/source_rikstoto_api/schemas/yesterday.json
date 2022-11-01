@@ -1,0 +1,113 @@
+{
+    "type": "object",
+    "properties": {
+        "success": {
+            "type": "boolean"
+        },
+        "errorCode": {
+            "type": "number"
+        },
+        "message": {
+            "type": "string"
+        },
+        "result": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "type": "string"
+                    },
+                    "defaultRaceDay": {
+                        "type": "string"
+                    },
+                    "raceDays": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "raceDayName": {
+                                    "type": "string"
+                                },
+                                "raceDay": {
+                                    "type": "string"
+                                },
+                                "trackCode": {
+                                    "type": "string"
+                                },
+                                "bettingTrackCode": {
+                                    "type": "string"
+                                },
+                                "sportType": {
+                                    "type": "string"
+                                },
+                                "countryIsoCode": {
+                                    "type": "string"
+                                },
+                                "startTime": {
+                                    "type": "string"
+                                },
+                                "isToday": {
+                                    "type": "boolean"
+                                },
+                                "progressStatus": {
+                                    "type": "string"
+                                },
+                                "isDomestic": {
+                                    "type": "boolean"
+                                },
+                                "showRdLink": {
+                                    "type": "boolean"
+                                },
+                                "isPmuRaceDay": {
+                                    "type": "boolean"
+                                },
+                                "isMultiTrack": {
+                                    "type": "boolean"
+                                },
+                                "isATG": {
+                                    "type": "boolean"
+                                },
+                                "races": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "raceNumber": {
+                                                "type": "number"
+                                            },
+                                            "startTime": {
+                                                "type": "string"
+                                            },
+                                            "isAbandoned": {
+                                                "type": "boolean"
+                                            },
+                                            "isMerged": {
+                                                "type": "boolean"
+                                            }
+                                        }
+                                    }
+                                },
+                                "pools": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "product": {
+                                                "type": "string"
+                                            },
+                                            "raceNumbers": {
+                                                "type": "array",
+                                                "items": "numbers"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

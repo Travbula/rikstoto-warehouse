@@ -1,0 +1,137 @@
+{
+    "streams": [
+        {
+            "sync_mode": "full_refresh",
+            "destination_sync_mode": "overwrite",
+            "stream": {
+                "name": "complete_results",
+                "supported_sync_modes": [
+                    "full_refresh"
+                ],
+                "json_schema": {
+                    "$schema": "http://json-schema.org/draft-04/schema#",
+                    "type": "object",
+                    "properties": {
+                        "success": {
+                            "type": "boolean"
+                        },
+                        "errorCode": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "message": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "raceday_key": {
+                            "type": [
+                                "string"
+                            ]
+                        },
+                        "result": {
+                            "type": "object",
+                            "properties": {
+                                "distance": {
+                                    "type": "number"
+                                },
+                                "startMethod": {
+                                    "type": "string"
+                                },
+                                "startTime": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "winningDistance": {
+                                    "type": "string"
+                                },
+                                "trackState": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "trackStateCode": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "results": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "place": {
+                                                "type": "number"
+                                            },
+                                            "order": {
+                                                "type": "number"
+                                            },
+                                            "startNumber": {
+                                                "type": "number"
+                                            },
+                                            "postPosition": {
+                                                "type": "number"
+                                            },
+                                            "distance": {
+                                                "type": "number"
+                                            },
+                                            "horseName": {
+                                                "type": "string"
+                                            },
+                                            "horseRegistrationNumber": {
+                                                "type": "string"
+                                            },
+                                            "driverName": {
+                                                "type": "string"
+                                            },
+                                            "driverShortName": {
+                                                "type": "string"
+                                            },
+                                            "driverId": {
+                                                "type": "string"
+                                            },
+                                            "prize": {
+                                                "type": "number"
+                                            },
+                                            "kmTime": {
+                                                "type": "string"
+                                            },
+                                            "odds": {
+                                                "type": "number"
+                                            }
+                                        }
+                                    }
+                                },
+                                "isComplete": {
+                                    "type": "boolean"
+                                },
+                                "first500MetersTime": {
+                                    "type": "string"
+                                },
+                                "first1000MetersTime": {
+                                    "type": "string"
+                                },
+                                "first500MetersHorseName": {
+                                    "type": "string"
+                                },
+                                "first1000MetersHorseName": {
+                                    "type": "string"
+                                },
+                                "last500MetersTime": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

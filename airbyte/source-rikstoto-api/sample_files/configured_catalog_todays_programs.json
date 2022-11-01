@@ -1,0 +1,219 @@
+{
+    "streams": [
+        {
+            "sync_mode": "full_refresh",
+            "destination_sync_mode": "overwrite",
+            "stream": {
+                "name": "todays_programs",
+                "supported_sync_modes": ["full_refresh"],
+                "json_schema": {
+                    "$schema": "http://json-schema.org/draft-04/schema#",
+                    "type": "object",
+                    "properties": {
+                        "result": {
+                            "type": "object",
+                            "properties": {
+                                "raceNumber": {
+                                    "type": "number"
+                                },
+                                "raceName": {
+                                    "type": "string"
+                                },
+                                "distance": {
+                                    "type": "number"
+                                },
+                                "startMethod": {
+                                    "type": "string"
+                                },
+                                "starts": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "startNumber": {
+                                                "type": "number"
+                                            },
+                                            "horseName": {
+                                                "type": "string"
+                                            },
+                                            "driver": {
+                                                "type": "string"
+                                            },
+                                            "driverId": {
+                                                "type": "string"
+                                            },
+                                            "extraDistance": {
+                                                "type": "number"
+                                            },
+                                            "mother": {
+                                                "type": "string"
+                                            },
+                                            "father": {
+                                                "type": "string"
+                                            },
+                                            "grandfather": {
+                                                "type": "string"
+                                            },
+                                            "trainer": {
+                                                "type": "string"
+                                            },
+                                            "owner": {
+                                                "type": "string"
+                                            },
+                                            "breeder": {
+                                                "type": "string"
+                                            },
+                                            "totalEarnings": {
+                                                "type": "number"
+                                            },
+                                            "age": {
+                                                "type": "number"
+                                            },
+                                            "color": {
+                                                "type": "string"
+                                            },
+                                            "sex": {
+                                                "type": "string"
+                                            },
+                                            "postPosition": {
+                                                "type": "number"
+                                            },
+                                            "recordVolt": {
+                                                "type": "string"
+                                            },
+                                            "recordAuto": {
+                                                "type": "string"
+                                            },
+                                            "winPercentage": {
+                                                "type": "number"
+                                            },
+                                            "triplePercentage": {
+                                                "type": "number"
+                                            },
+                                            "gallopPercentage": {
+                                                "type": "number"
+                                            },
+                                            "startImage": {
+                                                "type": "string"
+                                            },
+                                            "shoes": {
+                                                "type": "string"
+                                            },
+                                            "previousStartShoes": {
+                                                "type": "string"
+                                            },
+                                            "sulky": {
+                                                "type": "string"
+                                            },
+                                            "previousStartSulky": {
+                                                "type": "string"
+                                            },
+                                            "horseRegistrationNumber": {
+                                                "type": "string"
+                                            },
+                                            "horseAnnualStatistics": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "total": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "year": {
+                                                                "type": "number"
+                                                            },
+                                                            "numberOfStarts": {
+                                                                "type": "number"
+                                                            },
+                                                            "numberOfFirstPlaces": {
+                                                                "type": "number"
+                                                            },
+                                                            "numberOfSecondPlaces": {
+                                                                "type": "number"
+                                                            },
+                                                            "numberOfThirdPlaces": {
+                                                                "type": "number"
+                                                            },
+                                                            "record": {
+                                                                "type": ["null", "string"]
+                                                            },
+                                                            "totalEarnings": {
+                                                                "type": "number"
+                                                            }
+                                                        },
+                                                        "currentYear": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "year": {
+                                                                    "type": "number"
+                                                                },
+                                                                "numberOfStarts": {
+                                                                    "type": "number"
+                                                                },
+                                                                "numberOfFirstPlaces": {
+                                                                    "type": "number"
+                                                                },
+                                                                "numberOfSecondPlaces": {
+                                                                    "type": "number"
+                                                                },
+                                                                "numberOfThirdPlaces": {
+                                                                    "type": "number"
+                                                                },
+                                                                "record": {
+                                                                    "type": ["null", "string"]
+                                                                },
+                                                                "totalEarnings": {
+                                                                    "type": "number"
+                                                                }
+                                                            },
+                                                            "previousYear": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "year": {
+                                                                        "type": "number"
+                                                                    },
+                                                                    "numberOfStarts": {
+                                                                        "type": "number"
+                                                                    },
+                                                                    "numberOfFirstPlaces": {
+                                                                        "type": "number"
+                                                                    },
+                                                                    "numberOfSecondPlaces": {
+                                                                        "type": "number"
+                                                                    },
+                                                                    "numberOfThirdPlaces": {
+                                                                        "type": "number"
+                                                                    },
+                                                                    "record": {
+                                                                        "type": ["null", "string"]
+                                                                    },
+                                                                    "totalEarnings": {
+                                                                        "type": "number"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "previewComment": {
+                                                "type": ["string", null]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "success": {
+                            "type": "boolean"
+                        },
+                        "errorCode": {
+                            "type": "number"
+                        },
+                        "message": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

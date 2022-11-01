@@ -1,0 +1,307 @@
+{
+    "streams": [
+        {
+            "sync_mode": "full_refresh",
+            "destination_sync_mode": "overwrite",
+            "stream": {
+                "name": "rikstoto_index",
+                "supported_sync_modes": ["full_refresh"],
+                "json_schema": {
+                    "$schema": "http://json-schema.org/draft-04/schema#",
+                    "type": "object",
+                    "properties": {
+                        "result": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "races": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "raceKey": {
+                                                    "type": "string"
+                                                },
+                                                "raceNumber": {
+                                                    "type": "number"
+                                                },
+                                                "progressStatus": {
+                                                    "type": "string"
+                                                },
+                                                "startTime": {
+                                                    "type": "string"
+                                                },
+                                                "startMethod": {
+                                                    "type": "string"
+                                                },
+                                                "hasBeenPostponed": {
+                                                    "type": ["null", "boolean"]
+                                                },
+                                                "isOpenForBet": {
+                                                    "type": "boolean"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "pools": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "progressStatus": {
+                                                    "type": "string"
+                                                },
+                                                "startTime": {
+                                                    "type": "string"
+                                                },
+                                                "raceNumbers": {
+                                                    "type": "array",
+                                                    "items": "number"
+                                                },
+                                                "allowsAllIn": {
+                                                    "type": "boolean"
+                                                },
+                                                "availableMultiWeekBetMethods": {
+                                                    "type": "array",
+                                                    "items": "string"
+                                                },
+                                                "poolKey": {
+                                                    "type": "string"
+                                                },
+                                                "product": {
+                                                    "type": "string"
+                                                },
+                                                "availableBetMethods": {
+                                                    "type": "array",
+                                                    "items": "string"
+                                                },
+                                                "hasJackpot": {
+                                                    "type": "boolean"
+                                                },
+                                                "hasBonus": {
+                                                    "type": "boolean"
+                                                },
+                                                "isSuper": {
+                                                    "type": "boolean"
+                                                },
+                                                "isOpenForBet": {
+                                                    "type": "boolean"
+                                                },
+                                                "isUno": {
+                                                    "type": "boolean"
+                                                },
+                                                "poolPropertyType": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "singleLegProducts": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "raceKey": {
+                                                    "type": "string"
+                                                },
+                                                "raceNumber": {
+                                                    "type": "number"
+                                                },
+                                                "poolKey": {
+                                                    "type": "string"
+                                                },
+                                                "product": {
+                                                    "type": "string"
+                                                },
+                                                "availableBetMethods": {
+                                                    "type": "array",
+                                                    "items": "string"
+                                                },
+                                                "hasJackpot": {
+                                                    "type": "boolean"
+                                                },
+                                                "hasBonus": {
+                                                    "type": "boolean"
+                                                },
+                                                "isSuper": {
+                                                    "type": "boolean"
+                                                },
+                                                "isOpenForBet": {
+                                                    "type": "boolean"
+                                                },
+                                                "isUno": {
+                                                    "type": "boolean"
+                                                },
+                                                "poolPropertyType": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "raceDayName": {
+                                        "type": "string"
+                                    },
+                                    "raceDayKey": {
+                                        "type": "string"
+                                    },
+                                    "trackCode": {
+                                        "type": "string"
+                                    },
+                                    "bettingTrackCode": {
+                                        "type": "string"
+                                    },
+                                    "sportType": {
+                                        "type": "string"
+                                    },
+                                    "countryIsoCode": {
+                                        "type": "string"
+                                    },
+                                    "startTime": {
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "progressStatus": {
+                                        "type": "string"
+                                    },
+                                    "isDomestic": {
+                                        "type": "boolean"
+                                    },
+                                    "isPmuRaceDay": {
+                                        "type": "boolean"
+                                    },
+                                    "isMultiTrack": {
+                                        "type": "boolean"
+                                    },
+                                    "isATG": {
+                                        "type": "boolean"
+                                    },
+                                    "showRdLink": {
+                                        "type": "boolean"
+                                    },
+                                    "maximumNumberOfRunners": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        },
+                        "success": {
+                            "type": "boolean"
+                        },
+                        "errorCode": {
+                            "type": "number"
+                        },
+                        "message": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "name": "complete_results",
+                "supported_sync_modes": ["full_refresh"],
+                "json_schema": {
+                    "$schema": "http://json-schema.org/draft-04/schema#",
+                    "type": "object",
+                    "properties": {
+                        "result": {
+                            "type": "object",
+                            "properties": {
+                                "distance": {
+                                    "type": "number"
+                                },
+                                "startMethod": {
+                                    "type": "string"
+                                },
+                                "startTime": {
+                                    "type": ["null", "string"]
+                                },
+                                "winningDistance": {
+                                    "type": "string"
+                                },
+                                "trackState": {
+                                    "type": ["null", "string"]
+                                },
+                                "trackStateCode": {
+                                    "type": ["null", "number"]
+                                },
+                                "results": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "place": {
+                                                "type": "number"
+                                            },
+                                            "order": {
+                                                "type": "number"
+                                            },
+                                            "startNumber": {
+                                                "type": "number"
+                                            },
+                                            "postPosition": {
+                                                "type": "number"
+                                            },
+                                            "distance": {
+                                                "type": "number"
+                                            },
+                                            "horseName": {
+                                                "type": "string"
+                                            },
+                                            "horseRegistrationNumber": {
+                                                "type": "string"
+                                            },
+                                            "driverName": {
+                                                "type": "string"
+                                            },
+                                            "driverShortName": {
+                                                "type": "string"
+                                            },
+                                            "driverId": {
+                                                "type": "number"
+                                            },
+                                            "prize": {
+                                                "type": "number"
+                                            },
+                                            "kmTime": {
+                                                "type": "string"
+                                            },
+                                            "odds": {
+                                                "type": "number"
+                                            }
+                                        }
+                                    }
+                                },
+                                "isComplete": {
+                                    "type": "boolean"
+                                },
+                                "first500MetersTime": {
+                                    "type": "number"
+                                },
+                                "first1000MetersTime": {
+                                    "type": "number"
+                                },
+                                "first500MetersHorseName": {
+                                    "type": "string"
+                                },
+                                "first1000MetersHorseName": {
+                                    "type": "string"
+                                },
+                                "last500MetersTime": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "success": {
+                            "type": "boolean"
+                        },
+                        "errorCode": {
+                            "type": "number"
+                        },
+                        "message": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

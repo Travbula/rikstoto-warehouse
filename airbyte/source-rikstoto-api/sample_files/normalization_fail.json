@@ -1,0 +1,119 @@
+{
+    "streams": [
+        {
+            "stream": {
+                "name": "riks22_yesterdays_results",
+                "json_schema": {
+                    "type": "object",
+                    "properties": {
+                        "result": {
+                            "type": "array",
+                            "items": {
+                                "date": {
+                                    "type": "string"
+                                },
+                                "raceDays": {
+                                    "type": "array",
+                                    "items": {
+                                        "isATG": {
+                                            "type": "boolean"
+                                        },
+                                        "pools": {
+                                            "type": "array",
+                                            "items": {
+                                                "product": {
+                                                    "type": "string"
+                                                },
+                                                "raceNumbers": {
+                                                    "type": "array",
+                                                    "items": "number"
+                                                }
+                                            }
+                                        },
+                                        "races": {
+                                            "type": "array",
+                                            "items": {
+                                                "isMerged": {
+                                                    "type": "boolean"
+                                                },
+                                                "startTime": {
+                                                    "type": "string"
+                                                },
+                                                "raceNumber": {
+                                                    "type": "number"
+                                                },
+                                                "isAbandoned": {
+                                                    "type": "boolean"
+                                                }
+                                            }
+                                        },
+                                        "isToday": {
+                                            "type": "boolean"
+                                        },
+                                        "raceDay": {
+                                            "type": "string"
+                                        },
+                                        "sportType": {
+                                            "type": "string"
+                                        },
+                                        "startTime": {
+                                            "type": "string"
+                                        },
+                                        "trackCode": {
+                                            "type": "string"
+                                        },
+                                        "isDomestic": {
+                                            "type": "boolean"
+                                        },
+                                        "showRdLink": {
+                                            "type": "boolean"
+                                        },
+                                        "raceDayName": {
+                                            "type": "string"
+                                        },
+                                        "isMultiTrack": {
+                                            "type": "boolean"
+                                        },
+                                        "isPmuRaceDay": {
+                                            "type": "boolean"
+                                        },
+                                        "countryIsoCode": {
+                                            "type": "string"
+                                        },
+                                        "progressStatus": {
+                                            "type": "string"
+                                        },
+                                        "bettingTrackCode": {
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "defaultRaceDay": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "message": {
+                            "type": "string"
+                        },
+                        "success": {
+                            "type": "boolean"
+                        },
+                        "errorCode": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "supported_sync_modes": [
+                    "full_refresh"
+                ],
+                "default_cursor_field": [],
+                "source_defined_primary_key": []
+            },
+            "sync_mode": "full_refresh",
+            "cursor_field": [],
+            "destination_sync_mode": "overwrite",
+            "primary_key": []
+        }
+    ]
+}

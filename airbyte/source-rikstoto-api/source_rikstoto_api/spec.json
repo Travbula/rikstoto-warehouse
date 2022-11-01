@@ -1,0 +1,40 @@
+{
+  "documentationUrl": "https://docsurl.com",
+  "connectionSpecification": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Rikstoto Spec",
+    "type": "object",
+    "required": ["start_date", "end_date"],
+    "additionalProperties": false,
+    "properties": {
+      "racetrack": {
+        "type": "string",
+        "description": "ID of the racetrack, e.g. BT_NR (Bjerke travbane)",
+        "examples": ["BT_NR", "FO_NR", "JA_NR"]
+      },
+      "start_date": {
+        "type": "string",
+        "description": "Date of first raceday",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "examples": ["%Y-%m-%d"]
+      },
+      "end_date": {
+        "type": "string",
+        "description": "Date of last raceday",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "examples": ["%Y-%m-%d"]
+      },
+      "raceday_id": {
+        "type": "string",
+        "description": "ID of the raceday, e.g. BT_NR_01-27 (Bjerke travbane)",
+        "examples": ["BT_NR_01-27"]
+        
+      },
+      "race_number": {
+        "type": "number",
+        "description": "The number of a race in a raceday",
+        "examples": [1, 2, 3]
+      }
+    }
+  }
+}
