@@ -1,0 +1,32 @@
+# this sets up a database to host the data
+version: '3.8'
+services:
+
+  warehouse:
+    image: postgres
+    networks:
+      - warehouse-network
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - new_postgres_volume:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  # database admin gui
+  adminer:
+    image: adminer
+    networks:
+      - warehouse-network
+    restart: always
+    ports:
+      - 8090:8080
+
+volumes:
+  new_postgres_volume: {}
+
+networks:
+  warehouse-network: {}
