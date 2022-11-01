@@ -2,17 +2,17 @@
 version: '3.8'
 services:
 
-  warehouse:
+  rikstoto-warehouse:
     image: postgres
     networks:
-      - warehouse-network
+      - rikstoto-warehouse-network
     restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_DB: rikstoto
     volumes:
-      - new_postgres_volume:/var/lib/postgresql/data
+      - rikstoto-warehouse-volume:/var/lib/postgresql/data
     ports:
       - 5432:5432
 
@@ -20,13 +20,13 @@ services:
   adminer:
     image: adminer
     networks:
-      - warehouse-network
+      - rikstoto-warehouse-network
     restart: always
     ports:
       - 8090:8080
 
 volumes:
-  new_postgres_volume: {}
+  rikstoto-warehouse-volume: {}
 
 networks:
-  warehouse-network: {}
+  rikstoto-warehouse-network: {}
