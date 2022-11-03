@@ -80,9 +80,10 @@ class SourceRikstotoApi(AbstractSource):
                 RikstotoIndexList(
                     authenticator=auth,
                     start_date=start_date.date(),
-                    end_date=end_date.date()
-                    )
+                    end_date=(start_date + datetime.timedelta(days=increment)).date()
                 )
+            )
+
             start_date = start_date + datetime.timedelta(days=increment)
 
         return raceday_list
