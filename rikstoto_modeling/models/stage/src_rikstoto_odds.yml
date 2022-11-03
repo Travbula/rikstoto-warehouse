@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: rikstoto
+    description: Data from Rikstoto API endpoints
+    database: rikstoto
+    schema: raw_data
+
+    tables:
+    - name: win_odds_race
+    - name: win_odds_race_result
+    - name: place_odds_race
+    - name: place_odds_race_result
+    - name: complete_results
+    - name: complete_results_result
+    - name: complete_results_result_results
