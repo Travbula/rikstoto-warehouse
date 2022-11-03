@@ -1,0 +1,478 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "result": {
+      "type": "object",
+      "properties": {
+        "3": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        },
+        "6": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        },
+        "8": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        },
+        "1": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        },
+        "7": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "startNumber": {
+                  "type": "integer"
+                },
+                "odds": {
+                  "type": "number"
+                },
+                "lastUpdated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "startNumber",
+                "odds",
+                "lastUpdated"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "3",
+        "6",
+        "4",
+        "5",
+        "8",
+        "1",
+        "2",
+        "7"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "errorCode": {
+      "type": "null"
+    },
+    "message": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "result",
+    "success",
+    "errorCode",
+    "message"
+  ]
+}
+

@@ -1,0 +1,146 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "raceday_key": {
+        "type": ["string"]
+    },
+    "result": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "odds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "odds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "odds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "odds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "odds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "odds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "odds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "odds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "odds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "odds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "odds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "odds",
+            "lastUpdated"
+          ]
+        }
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "errorCode": {
+      "type": "null"
+    },
+    "message": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "result",
+    "success",
+    "errorCode",
+    "message"
+  ]
+}
+

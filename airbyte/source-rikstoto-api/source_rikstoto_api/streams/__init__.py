@@ -6,3 +6,5 @@ from .rikstoto_index_list import RikstotoIndexList
 from .complete_results import CompleteResults
 from .todays_programs import TodaysPrograms
 from .yesterday import Yesterday
+from .win_odds_race import WinOddsRace
+from .place_odds_race import PlaceOddsRace

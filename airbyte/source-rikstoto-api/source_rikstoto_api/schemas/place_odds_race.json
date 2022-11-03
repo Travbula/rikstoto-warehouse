@@ -1,0 +1,239 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "raceday_key": {
+        "type": ["string"]
+    },
+    "result": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "startNumber": {
+              "type": "integer"
+            },
+            "minOdds": {
+              "type": "number"
+            },
+            "maxOdds": {
+              "type": "number"
+            },
+            "lastUpdated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "startNumber",
+            "minOdds",
+            "maxOdds",
+            "lastUpdated"
+          ]
+        }
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "errorCode": {
+      "type": "null"
+    },
+    "message": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "result",
+    "success",
+    "errorCode",
+    "message"
+  ]
+}
+

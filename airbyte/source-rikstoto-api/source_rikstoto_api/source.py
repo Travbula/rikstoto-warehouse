@@ -15,6 +15,8 @@ from .streams import (
     CompleteResults,
     TodaysPrograms,
     Yesterday,
+    WinOddsRace,
+    PlaceOddsRace,
 )
 
 import datetime
@@ -62,6 +64,8 @@ class SourceRikstotoApi(AbstractSource):
         return [
             CompleteResults(authenticator=auth, racedays=history),
             #TodaysPrograms(authenticator=auth, raceday_stream=today),
+            PlaceOddsRace(authenticator=auth, racedays=history),
+            WinOddsRace(authenticator=auth, racedays=history),
         ]
 
     # TODO: prøve å bruke incremental sync i stedet?
