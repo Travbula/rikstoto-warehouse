@@ -1,0 +1,11 @@
+rikstoto_modeling:
+  outputs:
+    default:
+      type: postgres
+      threads: 2
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: postgres
+      dbname: rikstoto
+      schema: analytics
