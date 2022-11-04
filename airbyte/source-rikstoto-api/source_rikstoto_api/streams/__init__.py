@@ -8,3 +8,5 @@ from .todays_programs import TodaysPrograms
 from .yesterday import Yesterday
 from .win_odds_race import WinOddsRace
 from .place_odds_race import PlaceOddsRace
+from .race_results import RaceResults
+from .total_investment import TotalInvestment

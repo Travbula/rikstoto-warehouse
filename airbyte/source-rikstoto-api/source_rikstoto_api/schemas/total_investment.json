@@ -1,0 +1,2179 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "raceday_key": {
+        "type": ["string"]
+    },
+    "result": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "numberOfRights": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "numberOfRights",
+                    "value"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "numberOfRights": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "numberOfRights",
+                    "value"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "numberOfRights": {
+                      "type": "integer"
+                    },
+                    "value": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "numberOfRights",
+                    "value"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "raceDay": {
+              "type": "string"
+            },
+            "poolKey": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "raceNumber": {
+              "type": "integer"
+            },
+            "totalInvestment": {
+              "type": "integer"
+            },
+            "numberOfSystems": {
+              "type": "number"
+            },
+            "maxPayValue": {
+              "type": "integer"
+            },
+            "poolSplit8Right": {
+              "type": "integer"
+            },
+            "poolSplit7Right": {
+              "type": "integer"
+            },
+            "poolSplit6Right": {
+              "type": "integer"
+            },
+            "poolSplit5Right": {
+              "type": "integer"
+            },
+            "poolSplit4Right": {
+              "type": "integer"
+            },
+            "poolSplits": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "raceDay",
+            "poolKey",
+            "product",
+            "raceNumber",
+            "totalInvestment",
+            "numberOfSystems",
+            "maxPayValue",
+            "poolSplit8Right",
+            "poolSplit7Right",
+            "poolSplit6Right",
+            "poolSplit5Right",
+            "poolSplit4Right",
+            "poolSplits"
+          ]
+        }
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "errorCode": {
+      "type": "null"
+    },
+    "message": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "result",
+    "success",
+    "errorCode",
+    "message"
+  ]
+}
+

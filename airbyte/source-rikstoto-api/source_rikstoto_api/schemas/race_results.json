@@ -1,0 +1,2297 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "raceday_key": {
+        "type": ["string"]
+    },
+    "result": {
+      "type": "object",
+      "properties": {
+        "raceDay": {
+          "type": "string"
+        },
+        "raceResults": {
+          "type": "object",
+          "properties": {
+            "1": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "2": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "3": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "4": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "5": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "6": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "7": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "8": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "raceWinners": {
+          "type": "object",
+          "properties": {
+            "1": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "2": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "3": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "4": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "5": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "6": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "7": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            },
+            "8": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "place": {
+                      "type": "integer"
+                    },
+                    "startNumber": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "place",
+                    "startNumber"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "vGameWinnerRanks": {
+          "type": "object",
+          "properties": {
+            "1": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            },
+            "2": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object"
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            },
+            "3": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object",
+                      "properties": {
+                        "V65": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "V65"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            },
+            "4": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object",
+                      "properties": {
+                        "V65": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "V65"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            },
+            "5": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object",
+                      "properties": {
+                        "V4": {
+                          "type": "integer"
+                        },
+                        "V65": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "V4",
+                        "V65"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            },
+            "6": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object",
+                      "properties": {
+                        "V4": {
+                          "type": "integer"
+                        },
+                        "V65": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "V4",
+                        "V65"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            },
+            "7": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object",
+                      "properties": {
+                        "V4": {
+                          "type": "integer"
+                        },
+                        "V65": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "V4",
+                        "V65"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            },
+            "8": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "rank": {
+                      "type": "object",
+                      "properties": {
+                        "V4": {
+                          "type": "integer"
+                        },
+                        "V65": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "V4",
+                        "V65"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "rank"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "vGameProgress": {
+          "type": "object",
+          "properties": {
+            "1": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object"
+                },
+                "numberOfSystems": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            },
+            "2": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object"
+                },
+                "numberOfSystems": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            },
+            "3": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "V65": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "V65"
+                  ]
+                },
+                "numberOfSystems": {
+                  "type": "object",
+                  "properties": {
+                    "V65": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "V65"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            },
+            "4": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "V65": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "V65"
+                  ]
+                },
+                "numberOfSystems": {
+                  "type": "object",
+                  "properties": {
+                    "V65": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "V65"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            },
+            "5": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "integer"
+                    },
+                    "V65": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                },
+                "numberOfSystems": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "number"
+                    },
+                    "V65": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            },
+            "6": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "integer"
+                    },
+                    "V65": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                },
+                "numberOfSystems": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "number"
+                    },
+                    "V65": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            },
+            "7": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "integer"
+                    },
+                    "V65": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                },
+                "numberOfSystems": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "number"
+                    },
+                    "V65": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            },
+            "8": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "integer"
+                    },
+                    "V65": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                },
+                "numberOfSystems": {
+                  "type": "object",
+                  "properties": {
+                    "V4": {
+                      "type": "number"
+                    },
+                    "V65": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "V4",
+                    "V65"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "numberOfSystems"
+              ]
+            }
+          },
+          "required": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "finalOdds": {
+          "type": "object",
+          "properties": {
+            "doubleOdds": {
+              "type": "object",
+              "properties": {
+                "winCombinations": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "null"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "hasUnbackedWinners": {
+                  "type": "boolean"
+                },
+                "noTicketsHaveFirstOrSecondLegWinner": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "winCombinations",
+                "hasUnbackedWinners",
+                "noTicketsHaveFirstOrSecondLegWinner"
+              ]
+            },
+            "placeOdds": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "object",
+                  "properties": {
+                    "2": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "5": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "6": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "2",
+                    "5",
+                    "6"
+                  ]
+                },
+                "2": {
+                  "type": "object",
+                  "properties": {
+                    "1": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "2": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "7": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "1",
+                    "2",
+                    "7"
+                  ]
+                },
+                "3": {
+                  "type": "object",
+                  "properties": {
+                    "2": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "3": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "4": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "2",
+                    "3",
+                    "4"
+                  ]
+                },
+                "4": {
+                  "type": "object",
+                  "properties": {
+                    "4": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "7": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "8": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "4",
+                    "7",
+                    "8"
+                  ]
+                },
+                "5": {
+                  "type": "object",
+                  "properties": {
+                    "3": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "5": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "3",
+                    "5"
+                  ]
+                },
+                "6": {
+                  "type": "object",
+                  "properties": {
+                    "1": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "2": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "8": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "1",
+                    "2",
+                    "8"
+                  ]
+                },
+                "7": {
+                  "type": "object",
+                  "properties": {
+                    "2": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "5": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "7": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "2",
+                    "5",
+                    "7"
+                  ]
+                },
+                "8": {
+                  "type": "object",
+                  "properties": {
+                    "1": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "2": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    },
+                    "5": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "1",
+                    "2",
+                    "5"
+                  ]
+                }
+              },
+              "required": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            "winOdds": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "object",
+                  "properties": {
+                    "2": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "2"
+                  ]
+                },
+                "2": {
+                  "type": "object",
+                  "properties": {
+                    "1": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "1"
+                  ]
+                },
+                "3": {
+                  "type": "object",
+                  "properties": {
+                    "4": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "4"
+                  ]
+                },
+                "4": {
+                  "type": "object",
+                  "properties": {
+                    "4": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "4"
+                  ]
+                },
+                "5": {
+                  "type": "object",
+                  "properties": {
+                    "5": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "5"
+                  ]
+                },
+                "6": {
+                  "type": "object",
+                  "properties": {
+                    "8": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "8"
+                  ]
+                },
+                "7": {
+                  "type": "object",
+                  "properties": {
+                    "5": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "5"
+                  ]
+                },
+                "8": {
+                  "type": "object",
+                  "properties": {
+                    "1": {
+                      "type": "object",
+                      "properties": {
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "1"
+                  ]
+                }
+              },
+              "required": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            "qPlusOdds": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "object"
+                },
+                "2": {
+                  "type": "object"
+                },
+                "3": {
+                  "type": "object"
+                },
+                "4": {
+                  "type": "object"
+                },
+                "5": {
+                  "type": "object"
+                },
+                "6": {
+                  "type": "object"
+                },
+                "7": {
+                  "type": "object"
+                },
+                "8": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            "twinOdds": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "2": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "3": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "4": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "5": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "6": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "7": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "8": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            "tripleOdds": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "2": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "3": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "4": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "5": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "6": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "7": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                },
+                "8": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "startNumbers": {
+                          "type": "string"
+                        },
+                        "odds": {
+                          "type": "number"
+                        },
+                        "payoutStatus": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "startNumbers",
+                        "odds",
+                        "payoutStatus"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            "duoOdds": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "array",
+                  "items": {}
+                },
+                "2": {
+                  "type": "array",
+                  "items": {}
+                },
+                "3": {
+                  "type": "array",
+                  "items": {}
+                },
+                "4": {
+                  "type": "array",
+                  "items": {}
+                },
+                "5": {
+                  "type": "array",
+                  "items": {}
+                },
+                "6": {
+                  "type": "array",
+                  "items": {}
+                },
+                "7": {
+                  "type": "array",
+                  "items": {}
+                },
+                "8": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+              ]
+            },
+            "winStableOdds": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "doubleOdds",
+            "placeOdds",
+            "winOdds",
+            "qPlusOdds",
+            "twinOdds",
+            "tripleOdds",
+            "duoOdds",
+            "winStableOdds"
+          ]
+        }
+      },
+      "required": [
+        "raceDay",
+        "raceResults",
+        "raceWinners",
+        "vGameWinnerRanks",
+        "vGameProgress",
+        "finalOdds"
+      ]
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "errorCode": {
+      "type": "null"
+    },
+    "message": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "result",
+    "success",
+    "errorCode",
+    "message"
+  ]
+}
+
