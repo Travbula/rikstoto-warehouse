@@ -13,7 +13,7 @@ class RaceResults(RikstotoAbstractStream):
         key = stream_slice["key"].split("/")[0]
         race = stream_slice["key"].split("/")[1]
 
-        return f"results/raceDays/{key}-{race}/totalInvestment"
+        return f"results/raceDays/{key}-{race}/raceresults"
 
     def read_records(
         self,
@@ -21,6 +21,6 @@ class RaceResults(RikstotoAbstractStream):
         **kwargs
     ) -> Iterable[Mapping[str, Any]]:
         for raceday in self.racedays:
-            for key in raceday.racekeys_all():
+            for key in raceday.first_racekeys():
                 self.raceday_key = key
                 yield from super().read_records(stream_slice={"key": key}, **kwargs)

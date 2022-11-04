@@ -17,6 +17,11 @@ class RikstotoIndexList(RikstotoAbstractStream):
 
         return f"results/racedays/{self.start_date}/{self.end_date}/list"
 
+    def first_racekeys(self):
+        for raceday in self.current_racedays():
+            yield f"{raceday['raceDay']}/1"
+
+
     def racekeys_all(self):
         for raceday in self.current_racedays():
             raceday_key = raceday["raceDay"]
