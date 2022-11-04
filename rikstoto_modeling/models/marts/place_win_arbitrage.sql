@@ -4,7 +4,8 @@ with bet_opportunities as (
 
 final as (
     select * from bet_opportunities
-    where min_place_odds >= 1 * win_odds
+    where min_place_odds >= 0.9 * win_odds
+    and place_investment >= 5000
 )
 
 select * from final

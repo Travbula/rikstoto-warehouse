@@ -14,3 +14,5 @@ sources:
     - name: complete_results
     - name: complete_results_result
     - name: complete_results_result_results
+    - name: _airbyte_raw_total_investment
+    - name: _airbyte_raw_race_results
