@@ -3,9 +3,12 @@ with bet_opportunities as (
 ),
 
 final as (
-    select * from bet_opportunities
-    where min_place_odds >= 0.9 * win_odds
-    and place_investment >= 5000
+    select distinct
+        right(left(raceday_key, char_length(raceday_key) - 2), 10) as date,
+        *
+    
+    from bet_opportunities
+    where bet_size > 0
 )
 
 select * from final

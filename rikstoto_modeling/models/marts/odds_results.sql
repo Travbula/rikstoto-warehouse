@@ -25,6 +25,7 @@ final as (
         win.win_odds,
         place.min_place_odds,
         place.max_place_odds,
+        (1.25*(1 / win_odds)) - ((1 - (1.25*(1 / win_odds))) / (min_place_odds-1))  as bet_size,
         results.place,
         case when results.place = 1 then 1 else 0 end as win,
         case when results.place = 1 then win_odds - 1 else -1 end as win_profits,
@@ -40,6 +41,7 @@ final as (
     inner join results on win.raceday_key = results.raceday_key and win.start_number = results.start_number
     left outer join place_odds_payouts on win.raceday_key = place_odds_payouts.raceday_key and win.start_number = place_odds_payouts.start_number
     left outer join investment on win.raceday_key = investment.raceday_key
+    where min_place_odds > 1
 )
 
 select * from final
